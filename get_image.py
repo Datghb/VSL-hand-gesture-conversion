@@ -5,7 +5,7 @@ import mediapipe as mp
 
 
 def get_image():
-    Class = 'ngu'
+    Class = 'name'
     Path('DATASET/' + Class).mkdir(parents=True, exist_ok=True)
     cap = cv.VideoCapture(0)
     if not cap.isOpened():
